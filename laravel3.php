@@ -2,19 +2,15 @@
 echo 'hello php!';
 
 $name = "koichi";
-switch ($name) {
-   case "koichi":
+ if($name = "koichi") {
      echo "「私は　あなたの名前　です」";
-     break;
-     default:
+ }else{
        echo "「あなたの名前ではありません」";
-       break;
+       
 }
 $total = 0;
-echo $total;
-
-for($i = 0; $i <= 10000; $i++) {
-  $total += $i;
+for($i = 0; $i <= 10000; $i++){
+$total += $i;
 }
 echo $total;
 
